@@ -1,0 +1,12 @@
+server:
+  port: 8001
+spring:
+  graphql:
+    websocket:
+      connection-init-timeout: 60s
+      path: /graphql
+  data:
+    mongodb:
+      database: graphql
+      host: localhost
+      port: 27017
